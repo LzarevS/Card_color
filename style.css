@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card {
+    display: flex; 
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: 1s;
+}
+.gredient_img{
+    height: 610px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,11,193,1) 37%, rgba(0,212,255,1) 100%);
+}
+.title{
+    margin-left: 30px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .info_content {
+    padding: -100px 20px 15px 20px;
+  }
+  .card_buy {
+    display: flex; 
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    transition: 1s;
+  }
+  .card:hover{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,252,253,1) 100%);
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 27px solid #000000;
+  }
+  .title,span{
+    margin-left: 10px;
+    color:rgb(0, 0, 0)
+  }
+  .gredient_img_buy {
+    width: 300px;
+    height: 600px;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(176,16,16,1) 50%, rgba(167,32,58,1) 100%);
+  }
+  .btn {
+    display: flex; 
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    transition: 1s;
+    background: rgb(111, 110, 135);
+
+  }
+  .btn :hover{
+    color: white;
+  }
